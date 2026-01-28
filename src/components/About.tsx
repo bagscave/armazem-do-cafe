@@ -60,7 +60,7 @@ const About = () => {
 
             {/* Features */}
             <div className="grid gap-6 opacity-0 animate-fade-up stagger-2">
-              {features.map((feature, index) => (
+              {features.map((feature) => (
                 <div
                   key={feature.title}
                   className="flex items-start gap-4 p-4 rounded-xl bg-card/50 hover:bg-card transition-colors duration-300"
